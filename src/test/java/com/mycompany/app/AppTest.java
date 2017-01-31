@@ -10,7 +10,10 @@ import java.util.*;
  */
 public class AppTest 
     extends TestCase
-{  public void testFound() {
+
+{
+
+/*  public void testFound() {
       ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
       assertTrue(new App().search(array, 4));
     }
@@ -28,6 +31,36 @@ public class AppTest
     public void testNull() {
       assertFalse(new App().search(null, 1));
 }
+*/
+
+  public void testCorrect() {
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
+      assertTrue(new App().ort(array, 4,1));
+    }
+
+    public void testNegative() {
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
+      assertFalse(new App().ort(array, 5,-1));
+    }
+
+    public void testEmptyArray() {
+      ArrayList<Integer> array = new ArrayList<>();
+      assertFalse(new App().ort(array, 1,2));
+    }
+
+    public void testNull() {
+      assertFalse(new App().ort(null, 1,0));
+}
+
+    public void testZero() {
+       ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
+       assertFalse(new App().ort(array, 0,0));
+    }
+
+   
+
+
+
     /**
      * Create the test case
      *

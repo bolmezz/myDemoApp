@@ -10,7 +10,9 @@ import spark.template.mustache.MustacheTemplateEngine;
  * Hello world!
  *
  */
-public class App 
+
+
+/*public class App 
 {     public static boolean search(ArrayList<Integer> array, int e) {
         System.out.println("inside search");
         if (array == null) return false;
@@ -19,6 +21,31 @@ public class App
         }
         return false;
       }
+*/
+
+// arraylistten seçtiği bir sayı ve girilen 2 intin ortalmasını hesaplayan metod,
+
+	public static int ort(ArrayList<Integer> arr , int a, int b)
+{
+		System.out.println("inside ort");
+		
+
+	int randomNum = 0 + (int)(Math.random() * arr.size()); 
+	if(a>0 || b>0){
+	int sum=a+b+arr.get(randomNum);
+	int ort=sum/3;
+	return ort;
+}
+	
+	else
+		return 0;
+				
+
+
+}
+
+//-------------------------------------------------------------------------
+
 
 
     public static void main( String[] args )
