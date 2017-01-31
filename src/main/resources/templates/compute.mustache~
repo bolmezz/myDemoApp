@@ -1,9 +1,6 @@
 
 <title>My application deployed automatically</title>
-  <h1>Hello !</h1>
-
-	//anlat <br>
-
+  <h1>Hello, World!</h1>
     Result is {{result}}
 
 
@@ -11,8 +8,6 @@
         <textarea name="input1" rows="10" cols="30">
         </textarea>
         <textarea name="input2" rows="10" cols="30">
-        </textarea>
-    <textarea name="input3" rows="10" cols="30">
         </textarea>
         <br>
         <input type="submit">
