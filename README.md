@@ -8,4 +8,5 @@ This program compute the avarage 2 integers that given by the user and search in
 [![Build Status](https://travis-ci.org/bolmezz/myDemoApp.svg?branch=master)](https://travis-ci.org/bolmezz/myDemoApp)
 
 Demo site: https://hidden-brushlands-74564.herokuapp.com/compute
+Github account: https://github.com/bolmezz/myDemoApp
 
